@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Year Crossword</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #b22222;
+    }
+    .crossword-container {
+      display: inline-block;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #333;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #000;
+    }
+    .clues {
+      text-align: left;
+      display: inline-block;
+      margin: 20px;
+      vertical-align: top;
+    }
+    .clues h2 {
+      color: #2e8b57;
+    }
+    .clue {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 New Year Crossword 🎄</h1>
+
+  <div class="crossword-container">
+    <table>
+      <tr>
+        <td class="black"></td><td>S</td><td>N</td><td>O</td><td>W</td><td class="black"></td><td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td><td class="black"></td><td class="black"></td><td>T</td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr>
+      <tr>
+        <td>G</td><td>L</td><td>I</td><td>T</td><td>T</td><td>E</td><td>R</td>
+      </tr>
+      <tr>
+        <td class="black"></td><td class="black"></td><td class="black"></td><td>E</td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td><td class="black"></td><td class="black"></td><td>E</td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td><td class="black"></td><td class="black"></td><td>R</td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="clues">
+    <h2>Across:</h2>
+    <div class="clue">1. White winter precipitation (4 letters)</div>
+    <div class="clue">3. Shiny holiday decoration (7 letters)</div>
+
+    <h2>Down:</h2>
+    <div class="clue">2. Holiday plant with red leaves (4 letters)</div>
+    <div class="clue">4. Singing door-to-door during holidays (5 letters)</div>
+    <div class="clue">5. "Jingle ___" (5 letters)</div>
+  </div>
+
+  <!-- Ответы (для проверки, можно скрыть в финальной версии) -->
+  <!--
+    Across:
+    1. SNOW
+    3. GLITTER
+
+    Down:
+    2. NOEL
+    4. CAROL
+    5. BELLS
+  -->
+
+</body>
+</html>
